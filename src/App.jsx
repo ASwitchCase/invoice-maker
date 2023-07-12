@@ -10,39 +10,6 @@ import InvoiceContextProvider from './context/InvoiceContext'
 import PayTo from './components/PayTo'
 import AddServices from './components/AddServices'
 
-/*
-  <Page invoice ={
-        {
-          number:'001',
-          date:'7/10/2023',
-
-          billTo:{
-            companyName:'Christopher Teeter, R.A., @Metamechanics',
-            address:'236 West 27th Street, suite 4B new york, ny 10001',
-            phone:'212.939.6215',
-            email:'metamechanics@metamechanics.com'
-          },
-
-          payTo:{
-            companyName:'Jacques Adams',
-            address:'156 McAdoo ave, Jersey City, New Jersey, 07305',
-            phone:'551.222.9882',
-            email:'adamsjacques546@gmail.com'
-          },
-
-          services:[
-            {
-              des:'Analyze and identify security risks for company website. Present and recommend solutions.',
-              rate:'600.00',
-              total:toDec(600)
-            },
-            
-            
-          ]
-        }
-      }></Page>
-*/
-
 function App() {
   const [count, setCount] = useState(0)
   const toDec = (v) => {
