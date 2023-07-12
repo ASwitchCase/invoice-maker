@@ -43,7 +43,7 @@ const PayTo = () => {
           <header className='large-header'>Enter Billing Info</header>
         </div>
         <div className='right-container'>
-          <h1>Who is receiving the bill?</h1>
+          <h1>Who is receiving payment?</h1>
         </div>
         </div>
       <div className='left-container'>
