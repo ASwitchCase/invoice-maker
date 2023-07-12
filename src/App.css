@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+div{
+  border: 0px solid black;
+}
+
+hr{
+  background-color: rgb(85, 85, 85);
+  height: 5px;
+  border-radius: 5px;
+}
+
+h2{
+  line-height: 22px;
+  margin-left: 20px;
+}
+
+h3{
+  line-height: 22px;
+  margin-left: 20px;
+  color: rgb(79, 79, 79);
+}
+
+input{
+  height: 40px;
+  width: 90%;
+  font-size: 25px;
+}
+button{
+  width: fit-content;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(140, 251, 214);
+  color: rgb(0, 0, 0);
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin: 10px 10px;
+}
+
+button:hover{
+  width: fit-content;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(53, 97, 82);
+  color: rgb(0, 0, 0);
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.next{
+  width: 50%;
+  height: 50px;
+  padding:10px 50px;
+  border-radius: 5px;
+  background-color: rgb(140, 251, 214);
+  color: rgb(0, 0, 0);
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.next:hover{
+  background-color: rgb(85, 149, 127);
+}
+
+.bold-header{
+  font-weight: 1000;
+}
+
+.large-header{
+  font-size: 60px;
+}
+
+.header-container{
+  background-color: rgb(209, 255, 240);
+}
+
+.page-container{
+  width:1050px;
+  height: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.left-container{
+  display: inline-block;
+  height: fit-content;
+  width: 45%;
+  padding: 20px;
+}
+
+.right-container{
+  display: inline-block;
+  height: fit-content;
+  width: 45%;
+  padding: 20px;
+}
+
+.service-item{
+  display: inline-block;
+  width: 30%;
+}
+
+.bill-container hr{
+  height: 2px;
+}
